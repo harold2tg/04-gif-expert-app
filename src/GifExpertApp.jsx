@@ -4,7 +4,7 @@ import {AddCategory} from '../src/components/AddCategory'
 import { GifGrid } from './components/GifGrid';
 
 export const GifExpertApp = () => {
-  const [categories, setCategories] = useState(['One Punch', 'Dragon Ball', 'Naruto']);
+  const [categories, setCategories] = useState(['One Punch']);
   const onAddCategory = (newCategory) =>{
     //Priemra forma de agrear seria
     // setCategories([ ...categories, 'Caballeros del Zodiaco']);
