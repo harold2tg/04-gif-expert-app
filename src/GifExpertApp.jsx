@@ -1,7 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
-import {AddCategory} from '../src/components/AddCategory'
-import { GifGrid } from './components/GifGrid';
+import {AddCategory,GifGrid} from '../src/components'
 
 export const GifExpertApp = () => {
   const [categories, setCategories] = useState(['One Punch']);
