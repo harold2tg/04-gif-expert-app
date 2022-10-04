@@ -5,6 +5,8 @@
 
 
 module.exports = {
+  collectCoverageFrom: ["src/**/*.ts"],
+
     presets: [
       [
         '@babel/preset-env',

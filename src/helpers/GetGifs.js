@@ -12,3 +12,4 @@ export const getGif = async(category)=>{
     });
     return gifs
   }
+  
